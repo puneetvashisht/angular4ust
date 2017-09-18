@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Some Title</title>
+</head>
+<body>
+    <input type="text" id="message"/>
+    <div id="content">Content</div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    <script>
+
+        $('#message').bind('keyup', function(){
+            console.log('keyup event fired..')
+            $('#content').html($('#message').val())
+        })
+    
+    </script>
+    
+</body>
+</html>
