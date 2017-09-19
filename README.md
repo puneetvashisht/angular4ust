@@ -9,3 +9,13 @@
     Angular 1.x vs Angular 2/4.x
 
     Creating our first Angular component
+
+
+    Day 2
+    
+    NodeJS introduction
+    NPM 
+    Angular 
+        - Data Binding
+        - Services
+        - Pipes
