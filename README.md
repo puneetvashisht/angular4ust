@@ -17,5 +17,8 @@
     NPM 
     Angular 
         - Data Binding
+            a. Property Binding [] : input into the component
+            b. Event Binding () : output from the component
+            c. String interpolation: {{}} : read value from current component into template
         - Services
         - Pipes
