@@ -10,8 +10,9 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
     "outDir": "./build",
-    "rootDir": "newsrc"      
+    "rootDir": "nestedcomponents"   
+      
   },
     
-    "exclude" : ["node_modules", "src"]
+    "exclude" : ["node_modules", "app"]
 }

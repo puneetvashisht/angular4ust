@@ -20,5 +20,28 @@
             a. Property Binding [] : input into the component
             b. Event Binding () : output from the component
             c. String interpolation: {{}} : read value from current component into template
-        - Services
-        - Pipes
+
+
+    Day 3
+        Services
+        Pipes
+        Server side communication
+
+        Services in Angular 4, contain logic other than template manipulation
+        - DataService: 
+        - Logging .....
+        Service have to be Dependency Injected
+        Hierarchical DI: Go up the component chain, to find provider for the service and the provider will then supply the instance.
+        To use http in your application
+        1. Import the HttpModule
+        2. DI the Http service
+        3. Http is built on Observables
+        4. Promises vs Obserables
+        5. Observables (RxJS API), heavy in terms of size
+        6. Fallback availble to promise
+
+    Day 4
+        Improving the build process
+        Gulp
+        Angular CLI
+        Single Page application in Angular 4
