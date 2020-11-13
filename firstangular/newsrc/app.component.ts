@@ -4,7 +4,7 @@ import {LogService} from './log.service'
 @Component({
     selector: 'app-root',
     template: `
-    <h2>Our second component</h2>
+    <h2>Our second component -- changed</h2>
     <input type="text" #message (keyup)="0"/> {{message.value}}
     <button (click)= "doSomething(message.value)">Some action</button>
     `

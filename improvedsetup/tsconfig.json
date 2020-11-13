@@ -10,7 +10,7 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
     "outDir": "./build",
-    "rootDir": "nestedcomponents"   
+    "rootDir": "testnewsetup"   
       
   },
     

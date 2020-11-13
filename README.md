@@ -43,5 +43,20 @@
     Day 4
         Improving the build process
         Gulp
-        Angular CLI
+        Angular CLI - Wrapper over Webpack
         Single Page application in Angular 4
+
+        Build process
+            - Minification of JS, CSS, HTML angular.js angular.min.js
+            - Move files into the build folder
+            - Vender files (angular.js, rx.js), 
+              Application files (app.js, reverse.pipe.js)
+              vender.js : 4 months
+              app.js : 4 days
+            - app.js into chunks
+            - Image compression
+            - Image from embedded JS
+
+        
+        SPA
+
